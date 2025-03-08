@@ -97,8 +97,8 @@ services:
     networks:
       - stream-network
     environment:
-      - KAFKA_BROKER=kafka:29092  # Nome do serviço Kafka no Docker Compose
-      #- TOPIC_NAME=weather_aggregator-weather_aggregation-changelog
+      - KAFKA_BROKER=kafka:29092
+      - TOPIC_NAME=weather_stream
 
   weather_consumer:
     build:

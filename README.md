@@ -1,7 +1,6 @@
 # LAB DATA STREAM WEATHER
 
-O objetivo deste lab é subir um producer kafka que emite dados de temperatura, humidade de forma aleatória e os dados são recebidos por um consumer kafka que agrupa em intervalos preconfigurados e grava no MinIO no formato de Parquet.
-Este projeto implementa um pipeline de processamento de streaming utilizando Apache Kafka para ingestão de dados e MinIO para armazenamento dos dados processados no formato Parquet.
+O objetivo deste laboratório é configurar um produtor Kafka que emite, de forma aleatória, dados de temperatura e umidade. Esses dados são recebidos por um consumidor Kafka, que os agrupa em intervalos predefinidos e os grava no MinIO no formato Parquet. Este projeto implementa um pipeline de processamento de dados em tempo real utilizando Apache Kafka para ingestão e MinIO para armazenamento dos dados processados, no formato Parquet.
 
 ## Arquitetura do Projeto
 
