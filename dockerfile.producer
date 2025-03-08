@@ -1,0 +1,9 @@
+FROM python:3.9-slim
+
+WORKDIR /app
+
+COPY kafka_producer.py .
+
+RUN pip install --no-cache-dir kafka-python
+
+CMD ["/usr/local/bin/python3", "kafka_producer.py"]
